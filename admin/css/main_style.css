@@ -1,0 +1,116 @@
+.no-pad-lf{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.preloader{
+	display: none;
+	margin-top: 10px;
+}
+#button-preloader{
+	margin-top: 17px;
+    position: absolute;
+    top: 0;
+    margin-left: 12px;
+    height: 20px;
+    width: 20px;
+    color: #ffffff !important;
+}
+#mainbutton-preloader{
+	display: block;
+    position: relative;
+}
+.text-danger{
+	font-size: 13px;
+}
+.sidebar .nav .nav-item.active > .nav-link{
+    color: #ffffff !important;
+}
+.dt-button, #view_device_table_paginate a.paginate_button{
+	color: #fff;
+    background-color: #248AFD;
+    border-color: #248AFD;
+    box-shadow: none;
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: 400;
+    border-radius: 50px;
+        text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.875rem 1.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-transform: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.dt-buttons{
+	display: inline-block;
+	float: left;
+	margin-bottom: 25px;
+}
+#view_device_table_filter{
+	display: inline-block;
+    float: right;
+}
+#view_device_table_filter label input,#view_brand_table_filter label input,#view_service_table_filter label input{
+	border: 1px solid #CED4DA;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border-radius: 4px;
+	display: block;
+    height: 2.875rem;
+    padding: 0.875rem 1.375rem;
+    line-height: 1;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;    
+}
+div.dataTables_wrapper div.dataTables_paginate{
+	height: 60px;
+}
+.table_img{
+	width: 50px !important;
+	border-radius: 5px !important;
+	height: auto !important;
+	max-width: 100px !important;
+}
+.dataTables_wrapper .dataTable .btn{
+	padding: 12px 15px;
+}
+.mdi:before{
+	font-size: 15px;
+    vertical-align: bottom;
+}
+.image_prev{
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.image_prev img{
+	height: 150px;
+    display: block;
+    margin-bottom: 15px;	
+}
+select.form-control{
+    color: #000000;
+}
+.sidebar .nav.sub-menu{
+    padding-left: 30px;
+}
+.sidebar .nav .nav-item .nav-link img.menu-icon{
+    width: 25px;
+    margin-right: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.service_total_list{
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+}
+.service_total_list .service_total{
+    list-style-type: none;
+}
